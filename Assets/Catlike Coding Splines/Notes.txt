@@ -1,0 +1,3 @@
+Catlike Coding (Jasper Flick) Curves and Splines tutorial contains a Unity Bezier Spline implementation used as a base for an example line to segment and extrude.
+
+See: http://catlikecoding.com/unity/tutorials/curves-and-splines/
