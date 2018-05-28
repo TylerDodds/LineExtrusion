@@ -1,4 +1,4 @@
-# 2D Extrusion
+# Line Extrusion (2D)
 
 ### Overview
 
