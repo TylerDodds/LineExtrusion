@@ -34,6 +34,7 @@ When extrusion is large enough that the extruded surface has an interior hole, t
 
 ### Improvements
 
+- When extrusion creates an extruded contour with a hole inside, the choice of texture mapping is unclear. None is currently provided, but some use cases may be able to provide a consistent mapping.
 - Any spatial partitioning data structure would provide performance improvements, particularly if the original line is segmented into small pieces.
 - Data used for the inverse bilinear interpolation is provided to the shader as an array; instead providing this data in a texture may make more sense, depending on platform.
 - An example spline is provided, but is not production-ready.
