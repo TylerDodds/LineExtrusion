@@ -1,0 +1,3 @@
+Triangle.NET code for contour polygonization is used in cases where the extruded surface intersects itself to create a hole inside the contour.
+
+See: https://triangle.codeplex.com/
