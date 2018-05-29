@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "LineExtrusionWebGL.data.unityweb",
+"asmCodeUrl": "LineExtrusionWebGL.asm.code.unityweb",
+"asmMemoryUrl": "LineExtrusionWebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "LineExtrusionWebGL.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
