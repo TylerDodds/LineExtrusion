@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Line Extrusion</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/LineExtrusionWebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content" style="width: 960px">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Line Extrusion</div>
+      </div>
+	  <div class="information">
+		<h2>Line Extrusion</h2>
+		<h4>Overview</h4>
+		<p>
+		The aim of this project is to create proper extruded surfaces from lines in two dimensions.
+		</p>
+		<p>
+		This repository (in C#) is available on <a href="https://github.com/TylerDodds/LineExtrusion">GitHub</a>.
+		</p>
+		<h4>Rationale</h4>
+		<p>
+		Straightforward implementations based on shifting points along the line normal directions can run into issues when the line's curvature is high, and the extruded surface begins to intersect on itself.
+		</p>
+		<h4>Implementation</h4>
+		<p>
+		Visualization and implementation is in Unity.
+		</p>
+		<h4>Example</h4>
+		<p>
+		The demo shown above contains five pre-made splines. For the full experience, play around with the example scene in the Unity editor!
+		</p>
+	  </div>
+    </div>
+  </body>
+</html>
